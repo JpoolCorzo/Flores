@@ -5,7 +5,7 @@ var lyrics = document.querySelector("#lyrics");
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
   { text: "Admito que es real", time: -3 },
-  { text: "Me enseñaste que el amor es infinito y que", time: 1 },
+  { text: "Me enseñaste que el amor es infinito y que", time: 2 },
   { text: "Me busque más. Ya no duele nada", time: 5 },
   { text: "Llenas de morfina mi inseguridad", time: 9 },
   { text: "Dulce eternidad", time: 17 },
