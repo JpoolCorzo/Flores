@@ -4,40 +4,28 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "At the time", time: 15 },
-  { text: "The whisper of birds", time: 18 },
-  { text: "Lonely before the sun cried", time: 27 },
-  { text: "Fell from the sky", time: 32 },
-  { text: "Like water drops", time: 33 },
-  { text: "Where I'm now? I don't know why", time: 41 },
-  { text: "Nice butterflies in my hands", time: 47 },
-  { text: "Too much light for twilight", time: 54 },
-  { text: "In the mood for the flowers love", time: 59 },
-  { text: "That vision", time: 67 },
-  { text: "Really strong, blew my mind", time: 72 },
-  { text: "Silence Let me see what it was", time: 78 },
-  { text: "I only want to live in clouds", time: 83 },
-  { text: "Where I'm now? I don't know why", time: 91 },
-  { text: "Nice butterflies in my hands", time: 97 },
-  { text: "Too much light for twilight", time: 104 },
-  { text: "In the mood for the flowers love", time: 108 },
-  { text: "At the time", time: 144 },
-  { text: "The whisper of birds", time: 148 },
-  { text: "Lonely before the sun cried", time: 153 },
-  { text: "Fell from the sky", time: 158 },
-  { text: "Like water drops", time: 164 },
-  { text: "Where I'm now? I don't know why", time: 169 },
-  { text: "Nice butterflies in my hands", time: 176 },
-  { text: "Too much light for twilight", time: 183 },
-  { text: "In the mood for the flowers", time: 188 },
-  { text: "Love.", time: 140 },
+  { text: "Admito que es real", time: -3 },
+  { text: "Me enseñaste que el amor es infinito y que", time: 1 },
+  { text: "Me busque más. Ya no duele nada", time: 5 },
+  { text: "Llenas de morfina mi inseguridad", time: 9 },
+  { text: "Dulce eternidad", time: 17 },
+  { text: "Es verdad", time: 22 },
+  { text: "Te amará mi alma", time: 23 },
+  { text: "Cuando mi cabeza deje de pensar", time: 27 },
+  { text: "Cuando no haya tiempo", time: 29 },
+  { text: "Y este corazón deje de palpitar", time: 33 },
+  { text: "Deje de palpitar", time: 39 },
+  { text: "Yo quiero que me entierren", time: 45 },
+  { text: "Junto a ti", time: 47 },
+  { text: "Bajo el sauce que sembramos", time: 50 },
+  { text: "Que nos junte la raíz", time: 54 },
 ];
 
 // Animar las letras
 function updateLyrics() {
   var time = Math.floor(audio.currentTime);
   var currentLine = lyricsData.find(
-    (line) => time >= line.time && time < line.time + 6
+    (line) => time >= line.time && time < line.time + 5
   );
 
   if (currentLine) {

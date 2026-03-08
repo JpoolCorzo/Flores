@@ -45,7 +45,7 @@ body {
   color: yellow;
   position: absolute;
   font-weight: bold;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   opacity: 0;
   animation: fadeIn 3s ease-in-out forwards;
   text-align: center;
@@ -238,7 +238,7 @@ body {
   transform: translate(-50%, -100%);
   width: 8vmin;
   height: 8vmin;
-  background-color: #f9fd25;
+  background-color: purple;
   /* background-color: #fd2525; */
   filter: blur(10vmin);
 }
@@ -250,7 +250,7 @@ body {
   height: 11vmin;
   border-radius: 51% 49% 47% 53%/44% 45% 55% 69%;
   background-color: #253bfd;
-  background-color: #fddd25;
+  background-color: #FF69B4 ;
   transform-origin: bottom center;
   opacity: 0.9;
   box-shadow: inset 0 0 2vmin rgba(255, 255, 255, 0.5);
@@ -270,7 +270,7 @@ body {
   transform-origin: bottom left;
   border-radius: 4vmin 10vmin 4vmin 4vmin;
   transform: translate(0%, 18%) rotateX(70deg) rotate(-43deg);
-  background-color: #7c6901;
+  background-color: #ad4378;
   z-index: 1;
   opacity: 0.8;
 }
@@ -397,7 +397,7 @@ body {
       transparent 1px,
       transparent 12px
     ),
-    linear-gradient(90deg, rgb(255, 235, 18), rgb(255, 206, 0));
+    linear-gradient(90deg, #FF1493 , #FF1493 );
 }
 .flower__line {
   height: 55vmin;
