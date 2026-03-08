@@ -14,6 +14,7 @@ var lyricsData = [
   { text: "Cuando mi cabeza deje de pensar", time: 27 },
   { text: "Cuando no haya tiempo", time: 29 },
   { text: "Y este corazón deje de palpitar", time: 33 },
+  { text: "Y este corazón deje de palpitar", time: 33 },
   { text: "Deje de palpitar", time: 39 },
   { text: "Yo quiero que me entierren", time: 45 },
   { text: "Junto a ti", time: 47 },
