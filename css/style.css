@@ -12,7 +12,7 @@ body{
     justify-content: center;
     background-color: black;
     margin: 0;
-    padding: 0 1rem;
+    padding: 0;
 }
 
 .botones{
@@ -87,7 +87,8 @@ body{
 
 @media screen and (max-width:768px){
     .greetings{
-        font-size: 5vw;
+        font-size: 10vw;
+        margin-bottom: 2vw;
         font-weight: 800;
         text-align: center;
     }
@@ -102,7 +103,10 @@ body{
 
 @media screen and (max-width:574px){
     .greetings{
-        font-size: 6vw;
+        font-size: 10vw;
+        margin-bottom: 2vw;
+        font-weight: 800;
+        text-align: center;
     }
     .description{
         font-size: 5vw;
